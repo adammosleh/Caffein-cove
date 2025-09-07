@@ -339,18 +339,17 @@ margin-bottom: 5rem ;
 /* footer start */
 #footer{
     padding: 6rem 0;
-    background-color: var(--black);
-    
+    background: url('images/footer-bg.png');
 }
 #footer .row{
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns:2fr  1fr 1fr;
     gap: 5rem;
-   
+    
 }
-#footer .row .item h2
+#footer .row .item h3
 {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   font-weight: 500;
   margin-bottom: 20px;
